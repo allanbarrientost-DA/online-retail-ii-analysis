@@ -1,0 +1,29 @@
+﻿# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary and log files
+*.log
+*.tmp
+
+# Large source and intermediate datasets (kept locally)
+/01_Original_Data/online_retail_II.xlsx
+/02_Processed_Data/online_retail_combined.csv
+/02_Processed_Data/online_retail_analysis.csv
+/02_Processed_Data/online_retail_flagged.csv
+
+# Detailed investigation files kept locally
+/03_Results/january_2011_negative_lines.csv
+/03_Results/december_2011_negative_lines.csv
+/04_Documentation/description_candidates.csv
